@@ -1,0 +1,28 @@
+:host {
+    .hero {
+        background-image: linear-gradient(#000, #000), url("../../../assets/backdrop.webp");
+        background-blend-mode: saturation;
+        background-repeat: no-repeat;
+        background-position: center, center;
+        background-attachment: local;
+        background-size: cover;
+        @media only screen and (min-width: 1270px) {
+            min-height:500px;
+        }
+        h1 {
+            color: #fff;
+            margin: 0;
+            text-shadow: 0px 2px rgb(0 0 0 / 20%), 0px 4px  rgb(0 0 0 / 14%), 0px 1px  rgb(0 0 0 / 12% );
+        }
+    }
+
+    image-card {
+        margin: 16px;
+        width: 300px;
+        height: 440px;
+    }
+
+    .legal {
+        text-align: center;
+    }
+}

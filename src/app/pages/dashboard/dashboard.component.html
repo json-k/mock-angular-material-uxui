@@ -1,0 +1,20 @@
+<div fxLayout="column">
+<content-wrapper class="hero" fxLayout="column" fxLayoutAlign="center center">
+    <h1 class="mat-display-4">Welcome</h1>
+</content-wrapper>
+<content-wrapper fxLayout="row wrap" fxLayoutAlign="center start">
+   <image-card fxFlexAlign="start start" *ngFor="let card of mockCards"  backgroundURL="'assets/dashboard/{{card.image}}">
+    <div fxFill fxLayout="column">
+        <h2 class="mat-h2 primary-color">{{card.header}}</h2>
+        <p class="mat-body-1" fxFlex>{{card.body}}</p>
+        <div fxLayout="row">
+            <button mat-icon-button color="accent"><mat-icon>settings_suggest</mat-icon></button>
+            <button mat-stroked-button fxFlex color="accent">Mock</button>
+        </div>
+    </div>
+   </image-card>
+</content-wrapper>
+<content-wrapper>
+    <p class="mat-body-2 legal">Copyright 2021© | <a href="...">Privacy Policy</a> | <a href="...">Terms of Service</a></p>
+</content-wrapper>
+</div>

@@ -1,0 +1,37 @@
+@import "../../../styles";
+
+#login-page {
+    background-image: url("../../../assets/backdrop.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y:auto;
+    #login-logo {
+        height: max(10vw, 70px);
+        margin-bottom: 3vw;
+        filter: drop-shadow( 0px 0px 3px #000000);
+    }
+    #login-box {
+        box-sizing: border-box;
+        width: 420px;
+        max-width: 100%;
+        background-color: mat-color($background, card);
+        @include mat-elevation(4);
+
+        section {
+            margin: 16px;
+            mat-checkbox label,
+            a {
+                overflow-x: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+
+        #login-title {
+            h1 {
+                color: mat-color($primary);
+            }
+        }
+    }
+}
