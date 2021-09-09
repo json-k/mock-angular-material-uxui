@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   mockCards: MockCard[] = [
     {
       header: "Pictures?",
-      body: "I found this image on my phone and I don't remember taking it. What is it even of? Something creepythat's what.",
+      body: "I found this image on my phone and I don't remember taking it. What is it even of? Something creepy that's what.",
       image: "dashboard1.webp"
     },
     {
