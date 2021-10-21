@@ -12,6 +12,7 @@ import { MaterialModule } from './modules/material.module';
 import { MainComponent } from './components/main/main.component';
 import { ContentWrapperComponent } from './components/content-wrapper/content-wrapper.component';
 import { ImageCardComponent } from './components/image-card/image-card.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 
 
@@ -23,6 +24,7 @@ import { ImageCardComponent } from './components/image-card/image-card.component
     MainComponent,
     ContentWrapperComponent,
     ImageCardComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,

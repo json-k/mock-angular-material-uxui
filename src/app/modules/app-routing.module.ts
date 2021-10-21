@@ -3,6 +3,7 @@ import { RouterModule, Routes, Route } from '@angular/router';
 import { MainComponent } from '../components/main/main.component';
 import { DashboardComponent } from '../pages/dashboard/dashboard.component';
 import { LoginComponent } from '../pages/login/login.component';
+import { ProfileComponent } from '../pages/profile/profile.component';
 
 
 export class LabeledRoute implements Route {
@@ -17,6 +18,7 @@ export class LabeledRoute implements Route {
 
 export const labeledRoutes: LabeledRoute[] = [
   { icon: "dashboard", label: "Dashboard", path: "dashboard", component: DashboardComponent },
+  { icon: "face", label: "Profile", path: "profile", component: ProfileComponent },
 ];
 
 const routes: Routes = [

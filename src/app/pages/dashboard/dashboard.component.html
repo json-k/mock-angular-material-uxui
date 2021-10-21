@@ -3,7 +3,7 @@
     <h1 class="mat-display-4">Welcome</h1>
 </content-wrapper>
 <content-wrapper fxLayout="row wrap" fxLayoutAlign="center start">
-   <image-card fxFlexAlign="start start" *ngFor="let card of mockCards"  backgroundURL="'assets/dashboard/{{card.image}}">
+   <image-card fxFlexAlign="start start" *ngFor="let card of mockCards"  backgroundURL="assets/dashboard/{{card.image}}">
     <div fxFill fxLayout="column">
         <h2 class="mat-h2 primary-color">{{card.header}}</h2>
         <p class="mat-body-1" fxFlex>{{card.body}}</p>
